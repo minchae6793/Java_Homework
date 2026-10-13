@@ -9,7 +9,7 @@ public class Homework4 {
         if (m>n) {
             return gcd(n, m%n);
         }
-        else (m<n) {
+        else {
             return gcd(m, n%m);
         }
     }
